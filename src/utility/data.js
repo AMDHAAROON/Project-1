@@ -63,7 +63,9 @@ export const servicesData = [
     },
   ];
 
-  export const aboutUsImage = "./Assets/overlay.jpg"; // Adjust the path as needed
+  export const aboutUsImage = "./Assets/overlay.jpg"; 
+
+  export const contactImage = "./Assets/contact.png"; 
 
   
   

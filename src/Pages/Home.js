@@ -3,7 +3,8 @@ import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 import Carousel from "../Component/Carousel";
 import Service from "../Component/ServiceCards";
-import About from "../Component/AboutUsSection"
+import About from "../Component/AboutUsSection";
+import Contact from "../Component/ContactUsIntro";
 import { Box } from "@mui/material";
 
 const Home = () => {
@@ -19,9 +20,13 @@ const Home = () => {
    <Box>
     <Service />
    </Box>
+   <Box >
+    <Contact />
+    </Box>
    <Box>
     <About />
    </Box>
+   
 
       <Box sx={{ mt: 'auto' }}>
         <Footer />
