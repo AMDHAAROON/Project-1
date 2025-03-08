@@ -1,18 +1,25 @@
 import React from "react";
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
+import Carousel from "../Component/Carousel";
+import Service from "../Component/ServiceCards"
 import { Box } from "@mui/material";
 
 const Home = () => {
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      <Box sx={{ bgcolor: "#000212" }}>
-        <Navbar color="#fff" />
+      <Box sx={{ position: 'relative' }}>
+        <Box sx={{ position: 'absolute', top: 0, left: 0, right: 0, zIndex: 1 }}>
+          <Navbar color="#333" /> {/* Dark navbar for contrast */}
+        </Box>
+        <Carousel />
       </Box>
-      <Box sx={{ flex: 1, pt: 10 }}> {/* Add padding top */}
-        {/* Main content goes here */}
-      </Box>
-      <Box>
+
+   <Box>
+    <Service />
+   </Box>
+
+      <Box sx={{ mt: 'auto' }}>
         <Footer />
       </Box>
     </Box>
