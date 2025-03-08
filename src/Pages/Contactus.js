@@ -33,7 +33,68 @@ const theme = createTheme({
   },
 });
 
-
+const ContactUs = () => {
+  const contactInfo = [
+   {
+      icon: <HowToRegIcon style={{ fontSize: "40px", color: "#1E88E5 " }} />,
+      title: "Convenor",
+      content: (
+        <>
+          <br />
+          <strong>Dr. Srinivasan A</strong> <br /> Phone No : +91 70107 45391{" "}
+          <br />
+          <br />
+        </>
+      ),
+    },
+    {
+      icon: (
+        <SupervisorAccountIcon
+          style={{ fontSize: "40px", color: "#009688 " }}
+        />
+      ),
+      title: "Co-Convenors",
+      content: (
+        <>
+          <br />
+          <strong>Capt. Senthilnathan T</strong> <br /> Phone No : +91 94432
+          75916 <br />
+          <br />
+          <strong>Dr. Mathi R</strong> <br /> Phone No : +91 93844 53922 <br />
+          <br />
+          <strong>Dr. Sundhara Raman M</strong> <br /> Phone No : +91 99407
+          50345 <br />
+          <br />
+          <strong>Mr. Swaminathan R</strong> <br /> Phone No : +91 89402 50154{" "}
+          <br />
+          <br />
+        </>
+      ),
+    },
+    
+    {
+      icon: <PhoneIcon style={{ fontSize: "40px", color: "#D32F2F" }} />,
+      title: "Contact Us",
+      content: (
+        <>
+          <br />
+          <strong>President : Surya C</strong> <br /> Phone No : +91 93606 17308{" "}
+          <br />
+          <br />
+          <strong>Vice-President : Venkatesh N</strong> <br /> Phone No : +91
+          94437 76472 <br />
+          <br />
+          <strong>Vice-President : Karen Angel I</strong> <br /> Phone No : +91
+          74183 15768
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </>
+      ),
+    },
+  ];
 
   useEffect(() => {
     document.title = "Contact Us - Theta Program";
