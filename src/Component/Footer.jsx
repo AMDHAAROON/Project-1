@@ -46,7 +46,7 @@ const Footer = () => {
     };
   }, []);
   return (
-    <Box sx={{ bgcolor: "#3E517A", color: "white", px: { xs: 2 },    }}>
+    <Box sx={{ bgcolor: "#333333", color: "white", px: { xs: 2 },    }}>
       <Box sx={{ py: 5 }}>
         <Grid container spacing={4} justifyContent="center">
           <Grid item xs={12} sm={6} md={4}>
@@ -145,7 +145,7 @@ const Footer = () => {
               to="/Developers"
               onClick={ScrollToTop}
               style={{
-                color: "#FFB700",
+                color: "#FF6347",
                 textDecoration: "none",
                 fontWeight: "bold",
                 fontSize: "1rem",
