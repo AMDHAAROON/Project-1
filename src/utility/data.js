@@ -62,6 +62,9 @@ export const servicesData = [
       imagepath: './Assets/service3.jpg', // Path to local image
     },
   ];
+
+  export const aboutUsImage = "./Assets/overlay.jpg"; // Adjust the path as needed
+
   
   
   
